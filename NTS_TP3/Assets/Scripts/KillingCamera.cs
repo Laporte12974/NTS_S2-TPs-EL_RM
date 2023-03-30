@@ -60,7 +60,7 @@ namespace TP3
                 if (hitObj.CompareTag("Enemy"))
                 {
                     _explosionParticles.Play();
-                    AudioSource.PlayClipAtPoint(_explosionSounds[Random.Range(0, _explosionSounds.Length)], hitObj.transform.position);
+                    AudioSource.PlayClipAtPoint(_explosionSounds[UnityEngine.Random.Range(0, _explosionSounds.Length)], hitObj.transform.position);
                     Destroy(hitObj);
                     _count++;
                     _appManager.SpawnEnemy();
