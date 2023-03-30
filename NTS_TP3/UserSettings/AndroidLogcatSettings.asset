@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "8b7c509a",
         "name": "com.DefaultCompany.HUNTCODOWN",
-        "processId": 23688,
+        "processId": 25345,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -42,6 +42,12 @@
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.HUNTCODOWN",
             "processId": 23688,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.HUNTCODOWN",
+            "processId": 25345,
             "exited": false
         },
         {
