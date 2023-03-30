@@ -16,6 +16,5 @@ public class EnemyScripts : MonoBehaviour
     void Update()
     {
         transform.LookAt(camera);
-        transform.rotation = Quaternion.Euler(Propeller.transform.rotation.eulerAngles.x, Propeller.transform.rotation.eulerAngles.y +10, Propeller.transform.rotation.eulerAngles.z);;
     }
 }
