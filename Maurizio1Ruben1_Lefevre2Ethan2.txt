@@ -1,0 +1,21 @@
+# NTS_S2-TP2-EL_RM
+
+#Assets for enemy:
+Ripped by Centrixe (previously Tiramisu6) @ The Models Resource.
+https://www.models-resource.com/submitter/Centrixe/
+
+#Sound Assets:
+Firing sound: https://opengameart.org/content/laser-fire
+Explosions:
+https://opengameart.org/content/synthesized-explosion
+https://opengameart.org/content/chunky-explosion
+https://opengameart.org/content/explosion-0
+
+#Application:
+A partial reimplementation of the game "Face Raiders" for the Nintendo 3DS System.
+We used the face of our classmate, Corentin SCHIEBEL, as a model for our basic enemy's face, and models from the game extracted by the person mentioned above.
+We used the Mono backend for scripting, as it is the default backed for scripting in Unity.
+
+Our game's goal is to destroy the enemies as they spawn, one by one. The objective is to kill as many enemies given the alotted time.
+The player is able to restart a game or quit it once the alotted time is over. The score is reset on each game.
+
