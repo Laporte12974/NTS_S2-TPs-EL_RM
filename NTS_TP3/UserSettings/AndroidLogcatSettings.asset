@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "8b7c509a",
         "name": "com.DefaultCompany.HUNTCODOWN",
-        "processId": 20026,
+        "processId": 23688,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -39,9 +39,21 @@
             "exited": false
         },
         {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.HUNTCODOWN",
+            "processId": 23688,
+            "exited": false
+        },
+        {
             "deviceId": "RZ8NB19WNYW",
             "name": "com.DefaultCompany.NTS_TP3",
             "processId": 26072,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8NB19WNYW",
+            "name": "com.DefaultCompany.HUNTCODOWN",
+            "processId": 21575,
             "exited": false
         }
     ],

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace TP3
@@ -35,10 +36,11 @@ namespace TP3
         }
 
         // Update is called once per frame
-        public float tmpTime = 120;
+        public float tmpTime = 90;
         int minutes, seconds;
         void Update()
         {
+            if (tmpTime <= 0) SceneManager.LoadScene(1);
             
             tmpTime = tmpTime - Time.deltaTime;
  
@@ -46,7 +48,7 @@ namespace TP3
  
             seconds = (int) tmpTime % 60;
             
-            timer.text = "Time remaining: " + minutes+":"+Math.Round((double)seconds);
+            timer.text = "Time remaining: " + minutes+":"+Math.Round((double)seconds)+"s";
             text.text = "Ennemies killed: " + _count;
             
             if (Input.touchCount <= 0) return;
