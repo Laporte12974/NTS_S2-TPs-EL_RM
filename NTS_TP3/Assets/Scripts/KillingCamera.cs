@@ -17,13 +17,14 @@ namespace TP3
         public int _count = 0;
         public Text text;
         public Text timer;
+  
 
         // Start is called before the first frame update
         void Start()
         {
-            
             _appManager = arorigin.GetComponent<AppManager>();
             cam = GetComponent<Camera>();
+       
         }
 
         // Update is called once per frame
@@ -44,6 +45,7 @@ namespace TP3
             if (Input.touchCount <= 0) return;
             touchpos = Input.GetTouch(0).position;
             var ray = cam.ScreenPointToRay(touchpos);
+            
             if (Physics.Raycast(ray, out hit))
             {
                 var hitObj = hit.collider.gameObject;
