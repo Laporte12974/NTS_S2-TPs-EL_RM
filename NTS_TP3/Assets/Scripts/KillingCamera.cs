@@ -28,10 +28,10 @@ namespace TP3
             _appManager = arorigin.GetComponent<AppManager>();
             cam = GetComponent<Camera>();
        
-            _explosionSounds[0] = Resources.Load<AudioClip>("SoundEffects/explosion.wav");
-            _explosionSounds[1] = Resources.Load<AudioClip>("SoundEffects/synthetic_explosion_1.flac");
-            _explosionSounds[2] = Resources.Load<AudioClip>("SoundEffects/Chunky Explosion.mp3");
-            laserSound = Resources.Load<AudioClip>("SoundEffects/laser5.wav");
+            _explosionSounds[0] = Resources.Load<AudioClip>("SoundEffects/explosion");
+            _explosionSounds[1] = Resources.Load<AudioClip>("SoundEffects/synthetic_explosion_1");
+            _explosionSounds[2] = Resources.Load<AudioClip>("SoundEffects/Chunky Explosion");
+            laserSound = Resources.Load<AudioClip>("SoundEffects/laser5");
         }
 
         // Update is called once per frame
