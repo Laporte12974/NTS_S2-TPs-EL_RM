@@ -8,6 +8,8 @@ namespace TP3
 
     public class KillingCamera : MonoBehaviour
     {
+        [SerializeField] GameObject arorigin;
+        AppManager _appManager;
         private Vector2 touchpos;
         private RaycastHit hit;
         private Camera cam;
@@ -17,6 +19,7 @@ namespace TP3
         // Start is called before the first frame update
         void Start()
         {
+            _appManager = arorigin.GetComponent<AppManager>();
             cam = GetComponent<Camera>();
         }
 
@@ -34,6 +37,7 @@ namespace TP3
                 {
                     Destroy(hitObj);
                     _count++;
+                    _appManager.SpawnEnemy();
                 }
             }
         }

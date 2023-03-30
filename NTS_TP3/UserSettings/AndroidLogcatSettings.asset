@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "8b7c509a",
         "name": "com.DefaultCompany.NTS_TP3",
-        "processId": 8507,
+        "processId": 9199,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -132,6 +132,12 @@
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.NTS_TP3",
             "processId": 8507,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.NTS_TP3",
+            "processId": 9199,
             "exited": false
         }
     ],
