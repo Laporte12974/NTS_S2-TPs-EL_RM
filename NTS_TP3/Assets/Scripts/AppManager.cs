@@ -7,7 +7,7 @@ public class AppManager : MonoBehaviour
     public GameObject enemyPrefab;
     public Transform cam;
     public int enemyNumber = 12;
-    public float spawnRange = 8f;
+    public float spawnRange = 3f;
     
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,6 @@ public class AppManager : MonoBehaviour
 
     public void SpawnEnemy()
     {
-       
         var x = cam.transform.position.x + Random.Range(-spawnRange, spawnRange);
         var y = cam.transform.position.y + Random.Range(-spawnRange, spawnRange);
         var z = cam.transform.position.z + Random.Range(-spawnRange, spawnRange);

@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "8b7c509a",
         "name": "com.DefaultCompany.NTS_TP3",
-        "processId": 20081,
+        "processId": 25033,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,24 @@
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.NTS_TP3",
             "processId": 20081,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.NTS_TP3",
+            "processId": 21475,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.NTS_TP3",
+            "processId": 22974,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.NTS_TP3",
+            "processId": 25033,
             "exited": false
         }
     ],
