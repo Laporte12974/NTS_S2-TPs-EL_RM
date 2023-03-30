@@ -18,6 +18,9 @@ namespace TP3
         public Text text;
         public Text timer;
   
+        public AudioClip[] _explosionSounds;
+        public AudioClip laserSound;
+        public ParticleSystem _explosionParticles;
 
         // Start is called before the first frame update
         void Start()
@@ -25,6 +28,10 @@ namespace TP3
             _appManager = arorigin.GetComponent<AppManager>();
             cam = GetComponent<Camera>();
        
+            _explosionSounds[0] = Resources.Load<AudioClip>("SoundEffects/explosion.wav");
+            _explosionSounds[1] = Resources.Load<AudioClip>("SoundEffects/synthetic_explosion_1.flac");
+            _explosionSounds[2] = Resources.Load<AudioClip>("SoundEffects/Chunky Explosion.mp3");
+            laserSound = Resources.Load<AudioClip>("SoundEffects/laser5.wav");
         }
 
         // Update is called once per frame
@@ -43,6 +50,7 @@ namespace TP3
             text.text = "Ennemies killed: " + _count;
             
             if (Input.touchCount <= 0) return;
+            AudioSource.PlayClipAtPoint(laserSound, transform.position);
             touchpos = Input.GetTouch(0).position;
             var ray = cam.ScreenPointToRay(touchpos);
             
@@ -51,6 +59,8 @@ namespace TP3
                 var hitObj = hit.collider.gameObject;
                 if (hitObj.CompareTag("Enemy"))
                 {
+                    _explosionParticles.Play();
+                    AudioSource.PlayClipAtPoint(_explosionSounds[Random.Range(0, _explosionSounds.Length)], hitObj.transform.position);
                     Destroy(hitObj);
                     _count++;
                     _appManager.SpawnEnemy();
