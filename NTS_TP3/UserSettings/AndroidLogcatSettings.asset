@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "8b7c509a",
     "m_SelectedPackage": {
         "deviceId": "8b7c509a",
-        "name": "com.DefaultCompany.HUNTCODOWN",
-        "processId": 25345,
+        "name": "com.DefaultCompany.HUNTTHECOCO",
+        "processId": 30170,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,24 @@
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.HUNTCODOWN",
             "processId": 25345,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.HUNTTHECOCO",
+            "processId": 26159,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.HUNTTHECOCO",
+            "processId": 29099,
+            "exited": false
+        },
+        {
+            "deviceId": "8b7c509a",
+            "name": "com.DefaultCompany.HUNTTHECOCO",
+            "processId": 30170,
             "exited": false
         },
         {

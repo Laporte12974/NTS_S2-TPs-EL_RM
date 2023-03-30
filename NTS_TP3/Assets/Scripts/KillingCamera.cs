@@ -36,10 +36,11 @@ namespace TP3
         }
 
         // Update is called once per frame
-        public float tmpTime = 90;
+        private float tmpTime = 90;
         int minutes, seconds;
         void Update()
         {
+            if (_count >= 50) SceneManager.LoadScene(2);
             if (tmpTime <= 0) SceneManager.LoadScene(1);
             
             tmpTime = tmpTime - Time.deltaTime;
@@ -61,7 +62,9 @@ namespace TP3
                 var hitObj = hit.collider.gameObject;
                 if (hitObj.CompareTag("Enemy"))
                 {
-                    _explosionParticles.Play();
+                    var clone = Instantiate(_explosionParticles, hitObj.transform.position, Quaternion.identity);
+                    clone.transform.localScale = hitObj.transform.localScale;
+                    //_explosionParticles.Play();
                     AudioSource.PlayClipAtPoint(_explosionSounds[UnityEngine.Random.Range(0, _explosionSounds.Length)], hitObj.transform.position);
                     Destroy(hitObj);
                     _count++;
