@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1fe04c212248b2469403dbf775081a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 4268936730444361455, guid: c296f677f0cfed24ab7645bbdd9a2d79, type: 3}
+  enemyPrefab: {fileID: 4824710774262953352, guid: b4b1785f41e082226b9a237956a82b31, type: 3}
   cam: {fileID: 1418106271}
   enemyNumber: 12
   spawnRange: 4
