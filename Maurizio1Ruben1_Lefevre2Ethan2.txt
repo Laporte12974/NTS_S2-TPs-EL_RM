@@ -22,4 +22,4 @@ We used the Mono backend for scripting, as it is the default backed for scriptin
 Our game's goal is to destroy the enemies as they spawn, one by one. The objective is to kill as many enemies given the alotted time.
 The player is able to restart a game or quit it once the alotted time is over. The score is reset on each game.
 
-If the player reaches over 50 points at the end of the timer, he wins and is rewarded by a victory screen. However, should he fail to reach the objective, he will lose the game and be thrown at the restart screen.
+If the player reaches over 50 points at the end of the timer, he wins and is rewarded by a victory screen. However, should he fail to reach the objective, he will lose the game and will be devoured by the Coco...
