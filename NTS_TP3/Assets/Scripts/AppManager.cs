@@ -10,7 +10,7 @@ namespace TP3
     {
         public GameObject enemyPrefab;
         public Transform cam;
-        public float spawnRange = 3f;
+        public float spawnRange = 1f;
         
 
         // Start is called before the first frame update

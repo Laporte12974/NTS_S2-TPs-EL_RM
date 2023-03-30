@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "8b7c509a",
     "m_SelectedPackage": {
-        "deviceId": "8b7c509a",
-        "name": "com.DefaultCompany.NTS_TP3",
-        "processId": 9199,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,133 +11,31 @@
         {
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 3883,
-            "exited": false
+            "processId": 15244,
+            "exited": true
         },
         {
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 9588,
-            "exited": false
+            "processId": 16099,
+            "exited": true
         },
         {
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 12471,
-            "exited": false
+            "processId": 16772,
+            "exited": true
         },
         {
             "deviceId": "8b7c509a",
             "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 14432,
-            "exited": false
+            "processId": 17298,
+            "exited": true
         },
         {
-            "deviceId": "8b7c509a",
+            "deviceId": "RZ8NB19WNYW",
             "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 14917,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 15654,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 16788,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 20081,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 21475,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 22974,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 25033,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 25797,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 27252,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 30597,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 32317,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 2797,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 3738,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 6661,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 7243,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 7827,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 8507,
-            "exited": false
-        },
-        {
-            "deviceId": "8b7c509a",
-            "name": "com.DefaultCompany.NTS_TP3",
-            "processId": 9199,
+            "processId": 26072,
             "exited": false
         }
     ],
